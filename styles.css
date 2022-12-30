@@ -6,6 +6,7 @@
 }
 
 .main {
+  background-color: #D8E3FE;
   color: #3D4F9F;
   flex: 1;
 }
@@ -82,4 +83,13 @@ a:link {
   color: #697CA6;
   font-weight: 500;
   text-decoration: none;
+}
+
+a:hover {
+  color: #3A79FF;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #3D4F9F;
 }
