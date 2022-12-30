@@ -2,16 +2,30 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
+.main {
+  color: #3D4F9F;
+  flex: 1;
+}
 .container {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
 }
 
 .sub-container {
   display: flex;
   justify-content: space-between;
   padding: 2% 5%;
+  background-color: white;
+}
+
+.header-position {
+  position: sticky;
+  top: 0;
 }
 
 .menu-burger {
@@ -24,7 +38,22 @@
   align-items: center;
   column-gap: 4em;
 }
+.center {
+  text-align: center;
+}
 
+.top-padding {
+  padding: 60px 0 0 0;
+}
+
+.textbox {
+  width: 50%;
+  margin: auto;
+}
+
+h2 {
+  padding: 20px;
+}
 
 .navlist {
   display: flex;
@@ -44,9 +73,13 @@
   cursor: pointer;
 }
 
+h2 {
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
 a:link {
   color: #697CA6;
-  font-family: 'Quicksand', sans-serif;
   font-weight: 500;
   text-decoration: none;
 }
